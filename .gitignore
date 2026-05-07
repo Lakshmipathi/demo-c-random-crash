@@ -1,0 +1,6 @@
+demo_crash
+*.o
+*.gcda
+*.gcno
+core.*
+core

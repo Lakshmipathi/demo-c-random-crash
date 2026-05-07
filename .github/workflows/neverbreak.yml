@@ -1,0 +1,13 @@
+name: neverbreak
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  crash-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build + run demo
+        run: make test
