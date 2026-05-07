@@ -5,7 +5,7 @@ for [neverbreak.ai](https://neverbreak.ai).
 
 ## What it does
 
-The program runs 12 rounds. In each round it picks a number and processes it:
+The program runs 12 rounds. In each round it picks a number and processes it :
 
 - Rounds 1-4 are warmup (crash disabled).
 - From round 5 onward, certain numbers cause the program to mark itself as
